@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background: rgba(125, 125, 125, 0);
+}
+.parfume-img{
+ position:absolute;
+ height: 400px;
+ left: 48%;
+ top: 25%;
+ opacity: 0.9;
+ transition: 0.3s;
+ 
+}
+.parfume-img:hover{
+  transform: scale(1.1);
+}
+.rayhanalogo{
+  position:fixed;
+  top: 20px;
+  left: 13%;
+  transition: 0.5s;
+
+}
+.rayhanalogo:hover{
+  border-radius: 10px;
+  
+box-shadow: 1px 1px 2px rgb(255, 153, 0), 0 0 1em rgb(243, 179, 5), 0 0 0.2em rgb(255, 221, 0);
+}
+
+
+.navMenu {
+    position: fixed;
+    top: 8%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
+  
+  .navMenu a {
+    
+    font-family: sans-serif;
+    color: #E1AF3E;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color: #ffffff;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.9s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  .section-name{
+    color: black;
+  }
+  .card-section{
+    background-image: url(blur\ background.jpg);
+  }
+  
+  
+  
+  
